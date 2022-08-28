@@ -15,32 +15,32 @@
 
 <div class="">
  <h1>Proyecto Web</h1>
- <i><u><p style="text-align:center;font-family:tahoma" >Recetas de cocina</p></u></i>
+ <i><u><p style="text-align:center;font-family:tahoma" >Reserva de turno</p></u></i>
  <br>
  <br>
- <p style="text-align:center">Lorem Ipsum is simply dummy text of the printing
-    and typesetting industry. Lorem Ipsum has been the
-    industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and
-    scrambled it to make a type specimen book. It has
-    survived not only five centuries, but also the leap
-    into electronic typesetting, remaining essenti</p>
-
+ <p style="text-align:center">Por favor completá el formulario que está a continuación asi quedarás
+agendado en nuestra central de turnos</p>
+<br><br><br>
     <form action="/my-handling-form-page" method="post">
         <ul>
          <li>
-           <label for="name">Nombre:</label>
+           <label>Nombre:</label>
            <input type="text" id="name" name="user_name">
          </li>
          <li>
-           <label for="mail">Correo electrónico:</label>
+           <label >Correo electrónico:</label>
            <input type="email" id="mail" name="user_mail">
+         </li>         
+          <li>
+           <label>Edad:</label>
+           <input type="number" id="age" name="user_age">
          </li>
          <li>
-           <label for="msg">Mensaje:</label>
-           <textarea id="msg" name="user_message"></textarea>
-         </li>
-        </ul>
+          <label>DNI:</label>
+          <input type="number" id="dni" name="user_dni">
+        </li>
+        </ul> <br>
+        <button>Enviar</button>
        </form>
 </div>
 
