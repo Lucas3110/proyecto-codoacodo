@@ -1,3 +1,13 @@
 h1{
-    color: red;
+    color: rgba(74, 74, 74, 0.566);
+    text-align: center;
 }
+
+.navbar{    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+    box-sizing: border-box;
+    
+}
+
