@@ -1,0 +1,39 @@
+body {
+    margin:0px;
+    font-family: 'Roboto', sans-serif;;
+    color: rgb(66, 66, 66);
+    text-align: center;
+}
+h1 h2 {
+    color: rgb(53, 53, 53);
+}
+h1{
+    text-align: center;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 60%;
+    margin: 60px auto 0 auto;
+    text-align: justify
+
+}
+.section img {
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    margin-left: 50px;
+   
+}
+.section h2 {
+    margin: 0;
+}
+
+.section text {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    margin-right: 15px;
+    
+} 
