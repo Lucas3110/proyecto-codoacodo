@@ -1,24 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<head>
-  <link rel="stylesheet" href="/public/css/home.css">
-  <title>Home</title> 
-</head>
-
-<body>
-  <div>
-  <h1>Reutiliza</h1>
-
-  <div class="navbar"> <!-- Esta va a ser nuestra navbar -->
-    
-    <a href="/views/home.html">Home</a>
-    <a href="/views/proyectos.html">Proyectos</a>
-    <a href="/views/donaciones.html">Donaciones</a>
-    <a href="/views/contacto.html">Contacto</a>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Proyecto Reutiliza - Home</title>
+    <link rel="stylesheet" href="/public/css/home.css">
+    <script src="/public/js/home.js" async></script>
+  </head>
+  <body>
+ <div class="nav-wrapper">
+  <nav class="navbar">
+    <img src="./img/logo02.png" alt="Reutiliza Logo">
+    <ul class="nav no-search">
+      <li class="nav-item"><a href="#">Home</a></li>
+      <li class="nav-item"><a href="#">Proyectos</a></li>
+      <li class="nav-item"><a href="#">Donación</a></li>
+      <li class="nav-item"><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
   </div>
+  <section class="headline">
 
-  </div>
-</body>
+  </section>
+  <div class="aboutus">
+        <div class="aboutheading">
+            <h2>Acerca de nosotros</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, numquam iure! Incidunt, atque? Quasi, beatae.</p>
+        </div>
+        <div class="aboutwork">
+            <div class="img">
+                <img src="./img/reciclaje01.jpg" alt="Reciclaje">
+            </div>
+            <div class="aboutcontent">
+                <div class="content">
+                    <h2>¿Quiénes somos?</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni consequatur adipisci inventore temporibus suscipit ducimus quia repellendus laborum earum sequi? Aliquid sit quis voluptatibus nostrum alias. Corrupti eaque optio porro.</p>
+                </div>
+                <div class="content">
+                    <h2>¿Qué hacemos?</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni consequatur adipisci inventore temporibus suscipit ducimus quia repellendus laborum earum sequi? Aliquid sit quis voluptatibus nostrum alias. Corrupti eaque optio porro.</p>
+                </div>
+                <div class="content">
+                    <h2>¿Por qué ayudarnos?</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni consequatur adipisci inventore temporibus suscipit ducimus quia repellendus laborum earum sequi? Aliquid sit quis voluptatibus nostrum alias. Corrupti eaque optio porro.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  <section class="features">
+    <div class="feature-container">
+      <img src="https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png" alt="Flexbox Feature">
+      <h2>Flexbox Featured</h2>
+      <p>This pen contains use of flexbox for the headline and feature section! We use it in our mobile navbar and show the power of mixing css grid and flexbox.</p>
+    </div>
+    <div class="feature-container">
+      <img src="https://blog.webix.com/wp-content/uploads/2017/06/20170621-CSS-Grid-Layout-710x355-tiny.png" alt="Flexbox Feature">
+      <h2>CSS Grid Navigation</h2>
+      <p>While flexbox is used for the the mobile navbar, CSS grid is used for the desktop navbar showing many ways we can use both.</p>
+    </div>
+    <div class="feature-container">
+      <img src="https://www.graycelltech.com/wp-content/uploads/2015/06/GCT-HTML5.jpg" alt="Flexbox Feature">
+      <h2>Basic HTML5</h2>
+      <p>This pen contains basic html to setup the page to display the responsive navbar.</p>
+    </div>
+  </section>
+</div>
+  </body>
 </html>
