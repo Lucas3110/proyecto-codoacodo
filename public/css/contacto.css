@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #9EB23B;
+    background: #D0C9C0;
     margin: 0
 }
 
@@ -24,8 +24,8 @@ h2 {
     margin: 10px 0;
     padding-bottom: 10px;
     width: 180px;
-    color: #78788c;
-    border-bottom: 3px solid #78788c
+    color: #929296;
+    border-bottom: 3px solid #929296
 }
 
 input {
@@ -37,11 +37,11 @@ input {
     resize: none;
     border: 0;   
     transition: all .3s;
-    border-bottom: 2px solid #bebed2
+    border-bottom: 2px solid #929296
 }
 
 input:focus {
-    border-bottom: 2px solid #78788c
+    border-bottom: 2px solid #5e5e5e
 }
 
 p:before {
@@ -49,22 +49,22 @@ p:before {
     display: block;
     margin: 28px 0 0;
     font-size: 14px;
-    color: #5a5a5a
+    color: #5e5e5e
 }
 
 button {
     float: right;
     padding: 8px 12px;
     margin: 8px 0 0;   
-    border: 2px solid #78788c;
+    border: 2px solid #929296;
     background: 0;
-    color: #5a5a6e;
+    color: #929296;
     cursor: pointer;
     transition: all .3s
 }
 
 button:hover {
-    background: #78788c;
+    background: #5F7161;
     color: #fff
 }
 
@@ -73,7 +73,7 @@ div {
     position: absolute;
     bottom: -15px;
     right: -20px;
-    background: #50505a;
+    background: #929296;
     color: #fff;
     width: 320px;
     padding: 16px 4px 16px 0;
