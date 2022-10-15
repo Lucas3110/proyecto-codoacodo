@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Home | Reutiliza</title>
+    <title>Reutiliza - Home</title>
     <link rel="stylesheet" href="/public/css/home.css">
     <script src="/public/js/home.js" async></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -13,10 +13,10 @@
   <nav class="navbar">
     <img src="/img/logo02.png" alt="Reutiliza Logo">
     <ul class="nav no-search">
-      <li class="nav-item"><a href="home.html">Inicio</a></li>
-      <li class="nav-item"><a href="proyecto.html">Proyecto</a></li>
-      <li class="nav-item"><a href="donaciones.html">Donaciones</a></li>
-      <li class="nav-item"><a href="contacto.html">Contacto</a></li>
+      <li class="nav-item"><a href="/views/home.html">Home</a></li>
+      <li class="nav-item"><a href="/views/proyecto.html">Proyectos</a></li>
+      <li class="nav-item"><a href="/views/donaciones.html">Donaciones</a></li>
+      <li class="nav-item"><a href="/views/contacto.html">Contacto</a></li>
     </ul>
   </nav>
   </div>
@@ -28,24 +28,14 @@
             <h2>Acerca de nosotros</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, numquam iure! Incidunt, atque? Quasi, beatae.</p>
         </div>
-        <div class="aboutwork">
-            <div class="img">
-                <img src="/img/reciclaje01.jpg" alt="Reciclaje">
-            </div>
-            <div class="aboutcontent">
-                <div class="content">
-                    <h2>¿Quiénes somos?</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni consequatur adipisci inventore temporibus suscipit ducimus quia repellendus laborum earum sequi? Aliquid sit quis voluptatibus nostrum alias. Corrupti eaque optio porro.</p>
-                </div>
-                <div class="content">
-                    <h2>¿Qué hacemos?</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni consequatur adipisci inventore temporibus suscipit ducimus quia repellendus laborum earum sequi? Aliquid sit quis voluptatibus nostrum alias. Corrupti eaque optio porro.</p>
-                </div>
-                <div class="content">
-                    <h2>¿Por qué ayudarnos?</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni consequatur adipisci inventore temporibus suscipit ducimus quia repellendus laborum earum sequi? Aliquid sit quis voluptatibus nostrum alias. Corrupti eaque optio porro.</p>
-                </div>
-            </div>
+          <div class="aboutwork">
+            <iframe
+            class="video"
+            src="https://www.youtube.com/embed/wTkMFSgqi1I"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+            allowfullscreen></iframe>            
+           </div>
         </div>
     </div>
   <section class="features">
@@ -65,6 +55,57 @@
       <p>This pen contains basic html to setup the page to display the responsive navbar.</p>
     </div>
   </section>
+
+  <!--  FOOTER  -->
+  
+<div class="footer">
+  <div class="inner-footer">
+
+<!--  nombre y descripción -->
+    <div class="footer-items">
+      <h1> Proyecto Reutiliza </h1>
+    </div>
+
+<!--  links  -->
+    <div class="footer-items">
+      <h3>Links</h3>
+      <div class="border1"></div> <!--subrayado -->
+        <ul>
+          <a href="/views/home.html"><li>Home</li></a>
+          <a href="/views/proyecto.html"><li>Proyecto</li></a>
+          <a href="/views/donaciones.html"><li>Donaciones</li></a>
+          <a href="/views/contacto.html"><li>Contacto</li></a>
+        </ul>
+    </div>
+
+<!--  redes sociales -->
+    <div class="footer-items">
+      <h3>Nuestras redes sociales</h3>
+      <div class="border1"></div>  <!-- subrayado -->
+        <ul>
+          <a href="https://www.facebook.com/" target="_blank"><li>Facebook</li></a>
+          <a href="https://www.instagram.com/" target="_blank"><li>Instagram</li></a>
+          <a href="https://twitter.com/" target="_blank"><li>Twitter</li></a>
+          <a href="https://www.youtube.com/" target="_blank"><li>YouTube</li></a>
+        </ul>
+    </div>
+
+<!--  contacto -->
+    <div class="footer-items">
+      <h3>Contactanos</h3>
+      <div class="border1"></div> <!-- subrayado -->
+        <ul>
+          <li><i class="fa fa-map-marker" aria-hidden="true"></i>Siempreviva 123, Buenos Aires</li>
+          <li><i class="fa fa-phone" aria-hidden="true"></i>11 1234 5678</li>
+          <li><i class="fa fa-envelope" aria-hidden="true"></i>proyectoreutiliza@correo.com</li>
+        </ul> 
+    </div>
+
+<!--   footer fondo  -->
+  <div class="footer-bottom">
+    Copyright &copy; Proyecto Reutiliza 2022.
+  </div>
 </div>
+
   </body>
 </html>
