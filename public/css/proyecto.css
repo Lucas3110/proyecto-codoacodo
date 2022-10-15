@@ -1,15 +1,60 @@
 body {
     margin:0px;
-    font-family: 'Roboto', sans-serif;;
-    color: rgb(66, 66, 66);
+    font-family: 'Roboto', sans-serif;;;
     text-align: center;
-    background: #D0C9C0
+    background-color: rgb(255, 255, 255);
+    
 }
-h1 h2 {
-    color: rgb(53, 53, 53);
+
+.nav-wrapper {
+    width: 100%;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    background-color:#e6e6e6;
+  }
+  
+  /* NAVIGATION */
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    height: 75px;
+    overflow: hidden;
+  }
+  
+  .navbar img {
+    height: 64px;
+    width: auto;
+    justify-self: start;
+    margin-left: 20px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* justify-self: end; */
+  }
+  
+  .nav-item a {
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 550;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+  }
+  
+  .nav-item a:hover {
+    color: #7fc213;
+  }
+h2 {
+    color: #7fc213
 }
 h1{
     text-align: center;
+    color: #7fc213
 }
 .section {
     display: flex;
@@ -20,7 +65,7 @@ h1{
     text-align: justify;
     justify-content: center;
     border-width: 1.5px;
-    background: #e6e6e6;
+    background-color: #E4EDDE;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
 
@@ -53,13 +98,13 @@ h1{
     vertical-align: middle;
  }
 
-a {
+#link-contacto {
     text-decoration: none;
     color: #5a5a6e;
     cursor: pointer;
     transition: all .3s
 }
-a:hover {
+#link-contacto:hover {
     background: #5F7161;
     color: #fff
 }
