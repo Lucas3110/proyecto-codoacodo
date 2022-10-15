@@ -10,18 +10,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #9EB23B;
+          background-color: #f9f6f7;
   font-family: Raleway;
   color: #78788c;   
   letter-spacing: 1px;
 }
 
 .card-form {
-  background-color: #e6e6e6;
+  background: #E4EDDE;
   width: 40em;
   height: 30em;
   border-radius: 10px;
-  background: 333c4a;
   box-shadow: 10px 10px 40px -14px #000
 }
 
@@ -48,7 +47,7 @@ body {
   border-radius: 5px;
   outline: none;
   border: none;
-  background: #E0DECA;
+  background: #f1f1f1;
   color: #7c8086;
   font-size: 14px;
 }
@@ -61,7 +60,7 @@ body {
   border: none;
   border-radius: 2px;
   padding: 5px 14px;
-  background: #E0DECA;
+  background: #cececc;
   margin: 10px;
   font-size: 14px;
   -webkit-transition: 400ms background-color;
@@ -71,11 +70,10 @@ body {
   transition: 200ms background-color;
 }
 .card-form .form-body .row .form-block .button:hover {
-  background-color: #82d14b;
+  background: #649613;
+  color: #fff
 }
-/* .card-form .form-body .row .form-block .button:visited {
-  background-color: #82d14b;
-} */
+
 .card-form .form-footer {
   margin: 0 25px 15px 25px;
   padding: 15px 10px;
@@ -90,10 +88,9 @@ body {
   
   
   line-height: 30px;
-  border: none;
+  border: 2px solid #929296;
   border-radius: 2px;
   padding: 5px 10px;
-  background: #82d14b;
   margin: 5px;
   font-size: 14px;
     -webkit-transition: 400ms background-color;
@@ -104,5 +101,9 @@ body {
 }
 
 .card-form .form-footer .btn:hover{
-  background-color: #9be765;
+  background: #649613;
+  color: #fff
+}
+h1 {
+  color: #7fc213;
 }
