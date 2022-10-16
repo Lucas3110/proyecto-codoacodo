@@ -25,11 +25,11 @@
     </nav>
     </div>
 
-  <form class="form" id="form" action="https://formspree.io/f/mgeqzeea" method="POST">
+  <form class="form" id="form" action="https://formspree.io/f/mgeqzeea" method="POST" name="Form" onsubmit="return validateForm()">
     <h2>CONTACTANOS</h2>
-    <p type="Nombre:"><input placeholder="Escribe tu nombre..." name="nombre" required></input></p>
-    <p type="Email:"><input placeholder="Escribe un correo para contactarte..." name="email" required></input></p>
-    <p type="Mensaje:"><input placeholder="¿Qué te gustaría decirnos?..." name="mensaje" required></input></p>
+    <p type="Nombre:"><input placeholder="Escribe tu nombre..." name="nombre" id="a"></input></p>
+    <p type="Email:"><input placeholder="Escribe un correo para contactarte..." name="email" id="b"></input></p>
+    <p type="Mensaje:"><input placeholder="¿Qué te gustaría decirnos?..." name="mensaje" id="c"></input></p>
     <button type="submit">Enviar mensaje</button>
   </form>
 
