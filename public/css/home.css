@@ -40,40 +40,6 @@ h2 {
   background-color: #fff;
 }
 
-/* NAVIGATION */
-.navbar {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  align-items: center;
-  height: 75px;
-  overflow: hidden;
-}
-
-.navbar img {
-  height: 64px;
-  width: auto;
-  justify-self: start;
-  margin-left: 20px;
-}
-
-.navbar ul {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  /* justify-self: end; */
-}
-
-.nav-item a {
-  color: #000;
-  font-size: 0.9rem;
-  font-weight: 400;
-  text-decoration: none;
-  transition: color 0.3s ease-out;
-}
-
-.nav-item a:hover {
-  color: #7fc213;
-}
 
 /* ACERCA DE NOSOTROS */
 .aboutus {
@@ -265,6 +231,137 @@ li i {
   text-align: center;
 }
 
+/*NAVBAR*/
+
+.navigation {
+  height: 55px;
+  background: #cececc;
+}
+
+.brand {
+  position: absolute;
+  padding-left: 20px;
+  float: left;
+  line-height: 55px;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 20px;
+  line-height: 55px;
+  color: #fff;  
+  text-decoration: none;
+}
+
+nav ul li a {
+  background: transparent;
+  color: #FFF;
+}
+
+nav ul li a:hover{  
+  color: #7fc213;
+}
+
+nav ul li ul li {
+  min-width: 190px;
+}
+
+nav ul li ul li a {
+  padding: 15px;
+  line-height: 20px;
+}
+
+.nav-container img {
+  height: 4.5vh;
+  width: auto;
+  justify-self: start;  
+  margin-top: 0.70vh;
+}
+
+
+/* Mobile navigation */
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  height: 55px;
+  width: 70px;
+}
+
+
+
+
+#navbar-toggle {
+  position: absolute;
+  left: 18px;
+  top: 15px;
+  cursor: pointer;
+  padding: 10px 35px 16px 0px;
+}
+
+#navbar-toggle span,
+#navbar-toggle span:before,
+#navbar-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 3px;
+  width: 30px;
+  background: #ffffff;
+  position: absolute;
+  display: block;
+  content: '';
+  transition: all 300ms ease-in-out;
+}
+
+#navbar-toggle span:before {
+  top: -10px;
+}
+
+#navbar-toggle span:after {
+  bottom: -10px;
+}
+
+#navbar-toggle.active span {
+  background-color: transparent;
+}
+
+#navbar-toggle.active span:before,
+#navbar-toggle.active span:after {
+  top: 0;
+}
+
+#navbar-toggle.active span:before {
+  transform: rotate(45deg);
+}
+
+#navbar-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
 
 /* MQ */
 
@@ -280,8 +377,8 @@ li i {
     height: 20vh
   }
 
-  .video {    
-    width: 79%; 
+  .video {
+    width: 79%;
   }
 
 }
@@ -299,8 +396,8 @@ li i {
     height: 35vh
   }
 
-  .video {    
-    width: 86%; 
+  .video {
+    width: 86%;
   }
 
   .features {
@@ -308,7 +405,6 @@ li i {
     padding: 50px;
   }
 
-  
 
   .feature-container p {
     margin-bottom: 25px;
@@ -321,16 +417,33 @@ li i {
   .feature-container:nth-child(2) {
     order: -1;
   }
+
+  .nav-mobile {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+    padding: 55px 0 15px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav ul li {
+    float: none;
+  }
+
+ 
 }
 
 
 
 
-
-
 /* Notebooks */
-@media  screen and (max-width: 992px) {
-  .video {    
-    width: 53%; 
+@media screen and (max-width: 800px) {
+  .nav-list {
+    display: block !important;
   }
 }
