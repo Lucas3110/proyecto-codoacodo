@@ -269,8 +269,8 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  padding: 0 20px;
-  line-height: 55px;
+  padding: 0 30px;
+  line-height: 2.2rem;
   color: #fff;  
   text-decoration: none; 
 }
@@ -297,7 +297,7 @@ nav ul li ul li a {
   height: 4.5vh;
   width: auto;
   justify-self: start;  
-  margin-top: 0.70vh;
+  margin-top: 0.70vh;  
 }
 
 
@@ -447,3 +447,4 @@ nav ul li ul li a {
     display: block !important;
   }
 }
+
