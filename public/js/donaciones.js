@@ -9,7 +9,8 @@ function setValue(element){
     selId = val;
     selected = true;
   }else{
-    selId.style.background = "#E0DECA"; //fondo dsp de seleccionar
+    selId.style.background = "#578312"; //fondo dsp de seleccionar
+    selId.style.color="#ffff"; //color letras dsp de seleccionar
     val.style.background = "#82d14b";
     selId = val;
   }
