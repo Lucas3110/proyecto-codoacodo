@@ -1,24 +1,24 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap);
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-          background-color: #f9f6f7;
-  font-family: 'Roboto'; 
-  color: #78788c;   
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f9f6f7;
+  font-family: 'Roboto';
+  color: #78788c;
   letter-spacing: 1px;
 }
 
 .nav-wrapper {
   width: 100%;
   position: -webkit-sticky;
-  /* Safari */
   position: absolute;
   top: 0;
   background-color: rgb(206, 206, 204);
@@ -45,8 +45,7 @@ body {
 .navbar ul {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(5,1fr);
-  /* justify-self: end; */
+  grid-template-columns: repeat(5, 1fr);  
 }
 
 .nav-item a {
@@ -73,19 +72,20 @@ body {
 .card-form .form-body {
   padding: 10px;
 }
+
 .card-form .form-body .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   padding: 10px;
 }
 
 .card-form .form-body .row input[type="text"] {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   width: 100%;
   margin: 0 15px;
   height: 35px;
@@ -97,9 +97,10 @@ body {
   color: #7c8086;
   font-size: 14px;
 }
+
 .card-form .form-body .row .form-block .button {
-  
-  text-align:justify;
+
+  text-align: justify;
   display: inline-block;
   height: 30px;
   line-height: 30px;
@@ -115,6 +116,7 @@ body {
   -o-transition: 800ms opacity, 800ms right;
   transition: 200ms background-color;
 }
+
 .card-form .form-body .row .form-block .button:hover {
   background: #649613;
   color: #fff
@@ -126,31 +128,31 @@ body {
 }
 
 .card-form .form-footer .btn {
-  text-align:center;
-  
+  text-align: center;
+
   display: inline-block;
   height: 30px;
-  width:95%;
-  
-  
+  width: 95%;
+
+
   line-height: 30px;
   border: 2px solid #929296;
   border-radius: 2px;
   padding: 5px 10px;
   margin: 5px;
   font-size: 14px;
-    -webkit-transition: 400ms background-color;
+  -webkit-transition: 400ms background-color;
   -moz-transition: 800ms opacity, 800ms right;
   -ms-transition: 800ms opacity, 800ms right;
   -o-transition: 800ms opacity, 800ms right;
   transition: 200ms background-color;
 }
 
-.card-form .form-footer .btn:hover{
+.card-form .form-footer .btn:hover {
   background: #649613;
   color: #fff
 }
+
 h1 {
   color: #7fc213;
 }
-
